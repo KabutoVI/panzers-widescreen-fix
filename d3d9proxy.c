@@ -1,4 +1,4 @@
-/* Lab-only proxy d3d9.dll: forwards Direct3DCreate9 to the system d3d9 and
+/* Proxy d3d9.dll for Codename: Panzers - Phase One: forwards Direct3DCreate9 to the system d3d9 and
    applies in-memory patches to PANZERS.EXE (file on disk stays original):
    1) resolution filter 4:3-only -> accept all modes (VA 0x42A50A: 74 17 -> EB 17)
    2) windowed style 0x00CF0000 (caption/frame) -> WS_POPUP 0x80000000 (borderless)
